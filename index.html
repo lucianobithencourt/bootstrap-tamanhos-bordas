@@ -24,58 +24,91 @@
 
 <body>
 
-    <h3 class="display-4 text-center">Margim e Padding com bootstrap</h3>
+    <h1 class="display-4 text-center ">Largura Screen %</h1>
 
-    <div>
-        <h2 id="titulo-margim" class="text-center bg-secondary text-white">Margim[mt,mb,ml,mr(0-5)] <br> mx-eixo-x my-eixo-y m-all position </h2>
 
-        <h3 id="m-direita" class="bg-info text-center text-white mb-2 mr-5 mt-5">margin-direita <br> [class="mb-2 mr-5 mt-5"]</h3>
+    <div id="largura-tela">
+        <div>
+            <p class="p-1 bg-warning w-25 m-1 text-center">width - 25% <br> [class="w-25"]
+            </p>
+        </div>
 
-        <h3 id="m-esquerda" class="bg-success text-center text-white ml-5 mb-2 ">margin-esquerda <br> [class="ml-5 mb-2"]</h3>
+        <div>
+            <p class="p-1 bg-info w-50 m-1 text-center">width - 50% <br> [class="w-50"]
+            </p>
+        </div>
 
-        <h3 id="m-top" class="bg-danger text-center text-white  mt-5 mb-5">margin-top <br> [class="mt-5" mb-5]</h3>
+        <div>
+            <p class="p-1 bg-success w-75 m-1 text-center">width - 75% <br> [class="w-75"]
+            </p>
+        </div>
 
-        <h3 id="m-bottom" class="bg-warning text-center text-white  mt-5 mb-5">margin-bottom <br> [class="mt-5 mb-5"]</h3>
+        <div>
+            <p class="p-1 bg-danger w-99 m-1 text-center">width - 100% <br> [class="w-100"]
+            </p>
+        </div>
+
+        <div>
+            <p class="p-1 bg-secondary w-auto m-1 text-center">width - auto <br> [class="w-auto"]
+            </p>
+        </div>
+    </div>
+
+    <hr>
+
+    <h1 class="display-4 text-center ">Altura Screen %</h1>
+
+    <div style="height: 300px;" id="altura-tela">
+
+    <div class="d-inline-block bg-warning m-2 h-25">height-25%</div>
+
+    <div class="d-inline-block m-2 bg-success p-2 h-50">height-50% <br> [class="h-50"]</div>
+
+    <div class="d-inline-block m-2 bg-primary p-2 h-75">height-75% <br> [class="h-75"]</div>
+
+    <div class="d-inline-block m-2 bg-danger p-2 h-100  ">height-100% <br> [class="h-100"]</div>
+
+    <div class="d-inline-block m-2 bg-secondary p-2 h-auto">height-auto <br> [class="h-auto"]</div>
 
     </div>
 
-    <div>
-        <h2 id="titulo-margim" class="text-center bg-secondary text-white">Padding[pt,pb,pl,pr(0-5)] <br> px-eixo-x py-eixo-y p-all position </h2>
+    <hr>
 
-        <p class="text-justify pt-5 lead">
-            <span>[pt-5]</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, mollitia sint eius ipsum cupiditate vitae inventore,Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, mollitia sint eius ipsum cupiditate vitae
-            inventore. </p>
+    <h1 class="display-4 text-center ">Border</h1>
 
-        <p class="text-justify pb-5 lead">
-            <span>[pb-5]</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, mollitia sint eius ipsum cupiditate vitae inventore,Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, mollitia sint eius ipsum cupiditate vitae
-            inventore. </p>
+    <p class="border border-dark  p-1 d-inline-block">borde</p>
 
-        <p class="text-justify pl-5 lead">
-            <span>[pl-5]</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, mollitia sint eius ipsum cupiditate vitae inventore,Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, mollitia sint eius ipsum cupiditate vitae
-            inventore. </p>
+    <p class="border-top border-info  p-1 d-inline-block">borde-top</p>
 
-        <p class="text-justify pr-5 lead">
-            <span>[pr-5]</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, mollitia sint eius ipsum cupiditate vitae inventore,Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, mollitia sint eius ipsum cupiditate vitae
-            inventore. </p>
+    <p class="border-bottom border-info  p-1 d-inline-block">borde-bottom</p>
 
-        <p class="text-justify px-5 lead">
-            <span>[px-5]</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, mollitia sint eius ipsum cupiditate vitae inventore,Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, mollitia sint eius ipsum cupiditate vitae
-            inventore. </p>
+    <p class="border-left  ml-2 border-info  p-1 d-inline-block">borde-left</p>
 
-        <p class="text-justify py-5 lead">
-            <span>[py-5]</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, mollitia sint eius ipsum cupiditate vitae inventore,Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, mollitia sint eius ipsum cupiditate vitae
-            inventore. </p>
+    <p class="border-right  ml-2 border-info  p-1 d-inline-block">borde-right</p>
 
-        <p class="text-justify p-5 lead">
-            <span>[p-5]</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, mollitia sint eius ipsum cupiditate vitae inventore,Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, mollitia sint eius ipsum cupiditate vitae
-            inventore. </p>
+    <hr>
+
+    <div class="bg-warning">
+        <h1 class="display-4 text-center ">Border Rounded</h1>
+        <p class="border rounded border-dark p-1 d-inline-block">border rounded border-warning</p>
+        <p class="border rounded-top border-dark p-1 d-inline-block">border rounded-top border-dark</p>
+        <p class="border rounded-bottom border-dark p-1 d-inline-block">border rounded-bottom border-dark</p>
+        <p class="border rounded-left border-dark p-1 d-inline-block">border rounded-left border-dark</p>
+        <p class="border rounded-right border-dark p-1 d-inline-block">border rounded-right border-dark</p>
+
+        <p class="border rounded-circle  border-dark h-5 w-5 p-1 d-inline-block">border rounded-right border-dark</p>
+        
     </div>
 
+    
+
+    <hr>
+    
 
 
 
 
-
+   
 
 
 
